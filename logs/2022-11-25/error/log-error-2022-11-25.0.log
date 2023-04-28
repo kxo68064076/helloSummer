@@ -1,0 +1,374 @@
+2022-11-25 13:16:00-193 [clusteredScheduler_Worker-1] ERROR org.quartz.core.JobRunShell - Job DEFAULT_GROUP.testJob threw an unhandled Exception: 
+java.lang.NullPointerException: null
+	at com.capricorn.summer.utils.BecomingRichUtil.request(BecomingRichUtil.java:68)
+	at com.capricorn.summer.job.handle.TestJob.lambda$execute$0(TestJob.java:42)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.capricorn.summer.job.handle.TestJob.execute(TestJob.java:41)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-25 13:16:00-196 [clusteredScheduler_Worker-1] ERROR org.quartz.core.ErrorLogger - Job (DEFAULT_GROUP.testJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.lang.NullPointerException: null
+	at com.capricorn.summer.utils.BecomingRichUtil.request(BecomingRichUtil.java:68)
+	at com.capricorn.summer.job.handle.TestJob.lambda$execute$0(TestJob.java:42)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.capricorn.summer.job.handle.TestJob.execute(TestJob.java:41)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+2022-11-25 13:17:01-163 [clusteredScheduler_Worker-1] ERROR org.quartz.core.JobRunShell - Job DEFAULT_GROUP.testJob threw an unhandled Exception: 
+java.lang.NullPointerException: null
+	at com.capricorn.summer.utils.BecomingRichUtil.request(BecomingRichUtil.java:68)
+	at com.capricorn.summer.job.handle.TestJob.lambda$execute$0(TestJob.java:42)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.capricorn.summer.job.handle.TestJob.execute(TestJob.java:41)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-25 13:17:01-164 [clusteredScheduler_Worker-1] ERROR org.quartz.core.ErrorLogger - Job (DEFAULT_GROUP.testJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.lang.NullPointerException: null
+	at com.capricorn.summer.utils.BecomingRichUtil.request(BecomingRichUtil.java:68)
+	at com.capricorn.summer.job.handle.TestJob.lambda$execute$0(TestJob.java:42)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.capricorn.summer.job.handle.TestJob.execute(TestJob.java:41)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+2022-11-25 13:18:00-056 [clusteredScheduler_Worker-2] ERROR org.quartz.core.JobRunShell - Job DEFAULT_GROUP.testJob threw an unhandled Exception: 
+java.lang.NullPointerException: null
+	at com.capricorn.summer.utils.BecomingRichUtil.request(BecomingRichUtil.java:68)
+	at com.capricorn.summer.job.handle.TestJob.lambda$execute$0(TestJob.java:42)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.capricorn.summer.job.handle.TestJob.execute(TestJob.java:41)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-25 13:18:00-056 [clusteredScheduler_Worker-2] ERROR org.quartz.core.ErrorLogger - Job (DEFAULT_GROUP.testJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.lang.NullPointerException: null
+	at com.capricorn.summer.utils.BecomingRichUtil.request(BecomingRichUtil.java:68)
+	at com.capricorn.summer.job.handle.TestJob.lambda$execute$0(TestJob.java:42)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.capricorn.summer.job.handle.TestJob.execute(TestJob.java:41)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+2022-11-25 13:20:00-257 [clusteredScheduler_Worker-1] ERROR org.quartz.core.JobRunShell - Job DEFAULT_GROUP.testJob threw an unhandled Exception: 
+java.lang.IllegalArgumentException: HTTP request may not be null
+	at org.apache.http.util.Args.notNull(Args.java:54)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.capricorn.summer.utils.BecomingRichUtil.req(BecomingRichUtil.java:121)
+	at com.capricorn.summer.job.handle.TestJob.lambda$execute$0(TestJob.java:43)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.capricorn.summer.job.handle.TestJob.execute(TestJob.java:41)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-25 13:20:00-258 [clusteredScheduler_Worker-1] ERROR org.quartz.core.ErrorLogger - Job (DEFAULT_GROUP.testJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.lang.IllegalArgumentException: HTTP request may not be null
+	at org.apache.http.util.Args.notNull(Args.java:54)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.capricorn.summer.utils.BecomingRichUtil.req(BecomingRichUtil.java:121)
+	at com.capricorn.summer.job.handle.TestJob.lambda$execute$0(TestJob.java:43)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.capricorn.summer.job.handle.TestJob.execute(TestJob.java:41)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+2022-11-25 13:21:48-070 [clusteredScheduler_Worker-1] ERROR org.quartz.core.JobRunShell - Job DEFAULT_GROUP.testJob threw an unhandled Exception: 
+java.lang.IllegalArgumentException: HTTP request may not be null
+	at org.apache.http.util.Args.notNull(Args.java:54)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.capricorn.summer.utils.BecomingRichUtil.req(BecomingRichUtil.java:121)
+	at com.capricorn.summer.job.handle.TestJob.lambda$execute$0(TestJob.java:43)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.capricorn.summer.job.handle.TestJob.execute(TestJob.java:41)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-25 13:21:48-071 [clusteredScheduler_Worker-1] ERROR org.quartz.core.ErrorLogger - Job (DEFAULT_GROUP.testJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.lang.IllegalArgumentException: HTTP request may not be null
+	at org.apache.http.util.Args.notNull(Args.java:54)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.capricorn.summer.utils.BecomingRichUtil.req(BecomingRichUtil.java:121)
+	at com.capricorn.summer.job.handle.TestJob.lambda$execute$0(TestJob.java:43)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.capricorn.summer.job.handle.TestJob.execute(TestJob.java:41)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+2022-11-25 13:22:21-354 [clusteredScheduler_Worker-2] ERROR org.quartz.core.JobRunShell - Job DEFAULT_GROUP.testJob threw an unhandled Exception: 
+java.lang.IllegalArgumentException: HTTP request may not be null
+	at org.apache.http.util.Args.notNull(Args.java:54)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.capricorn.summer.utils.BecomingRichUtil.req(BecomingRichUtil.java:121)
+	at com.capricorn.summer.job.handle.TestJob.lambda$execute$0(TestJob.java:43)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.capricorn.summer.job.handle.TestJob.execute(TestJob.java:41)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-25 13:22:21-356 [clusteredScheduler_Worker-2] ERROR org.quartz.core.ErrorLogger - Job (DEFAULT_GROUP.testJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.lang.IllegalArgumentException: HTTP request may not be null
+	at org.apache.http.util.Args.notNull(Args.java:54)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.capricorn.summer.utils.BecomingRichUtil.req(BecomingRichUtil.java:121)
+	at com.capricorn.summer.job.handle.TestJob.lambda$execute$0(TestJob.java:43)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.capricorn.summer.job.handle.TestJob.execute(TestJob.java:41)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+2022-11-25 13:26:00-401 [clusteredScheduler_Worker-3] ERROR org.quartz.core.JobRunShell - Job DEFAULT_GROUP.testJob threw an unhandled Exception: 
+java.lang.IllegalArgumentException: HTTP request may not be null
+	at org.apache.http.util.Args.notNull(Args.java:54)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.capricorn.summer.utils.BecomingRichUtil.req(BecomingRichUtil.java:121)
+	at com.capricorn.summer.job.handle.TestJob.lambda$execute$0(TestJob.java:43)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.capricorn.summer.job.handle.TestJob.execute(TestJob.java:41)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-25 13:26:00-401 [clusteredScheduler_Worker-3] ERROR org.quartz.core.ErrorLogger - Job (DEFAULT_GROUP.testJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.lang.IllegalArgumentException: HTTP request may not be null
+	at org.apache.http.util.Args.notNull(Args.java:54)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.capricorn.summer.utils.BecomingRichUtil.req(BecomingRichUtil.java:121)
+	at com.capricorn.summer.job.handle.TestJob.lambda$execute$0(TestJob.java:43)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.capricorn.summer.job.handle.TestJob.execute(TestJob.java:41)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+2022-11-25 13:26:00-456 [clusteredScheduler_Worker-4] ERROR org.quartz.core.JobRunShell - Job DEFAULT_GROUP.testJob threw an unhandled Exception: 
+java.lang.IllegalArgumentException: HTTP request may not be null
+	at org.apache.http.util.Args.notNull(Args.java:54)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.capricorn.summer.utils.BecomingRichUtil.req(BecomingRichUtil.java:121)
+	at com.capricorn.summer.job.handle.TestJob.lambda$execute$0(TestJob.java:43)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.capricorn.summer.job.handle.TestJob.execute(TestJob.java:41)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-25 13:26:00-456 [clusteredScheduler_Worker-4] ERROR org.quartz.core.ErrorLogger - Job (DEFAULT_GROUP.testJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.lang.IllegalArgumentException: HTTP request may not be null
+	at org.apache.http.util.Args.notNull(Args.java:54)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.capricorn.summer.utils.BecomingRichUtil.req(BecomingRichUtil.java:121)
+	at com.capricorn.summer.job.handle.TestJob.lambda$execute$0(TestJob.java:43)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.capricorn.summer.job.handle.TestJob.execute(TestJob.java:41)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+2022-11-25 13:28:00-102 [clusteredScheduler_Worker-1] ERROR org.quartz.core.JobRunShell - Job DEFAULT_GROUP.testJob threw an unhandled Exception: 
+java.lang.NullPointerException: null
+	at com.capricorn.summer.utils.BecomingRichUtil.request(BecomingRichUtil.java:68)
+	at com.capricorn.summer.job.handle.TestJob.lambda$execute$0(TestJob.java:42)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.capricorn.summer.job.handle.TestJob.execute(TestJob.java:41)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-25 13:28:00-103 [clusteredScheduler_Worker-1] ERROR org.quartz.core.ErrorLogger - Job (DEFAULT_GROUP.testJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.lang.NullPointerException: null
+	at com.capricorn.summer.utils.BecomingRichUtil.request(BecomingRichUtil.java:68)
+	at com.capricorn.summer.job.handle.TestJob.lambda$execute$0(TestJob.java:42)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.capricorn.summer.job.handle.TestJob.execute(TestJob.java:41)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+2022-11-25 13:28:30-019 [clusteredScheduler_Worker-2] ERROR org.quartz.core.JobRunShell - Job DEFAULT_GROUP.testJob threw an unhandled Exception: 
+java.lang.NullPointerException: null
+	at com.capricorn.summer.utils.BecomingRichUtil.request(BecomingRichUtil.java:68)
+	at com.capricorn.summer.job.handle.TestJob.lambda$execute$0(TestJob.java:42)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.capricorn.summer.job.handle.TestJob.execute(TestJob.java:41)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-25 13:28:30-020 [clusteredScheduler_Worker-2] ERROR org.quartz.core.ErrorLogger - Job (DEFAULT_GROUP.testJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.lang.NullPointerException: null
+	at com.capricorn.summer.utils.BecomingRichUtil.request(BecomingRichUtil.java:68)
+	at com.capricorn.summer.job.handle.TestJob.lambda$execute$0(TestJob.java:42)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.capricorn.summer.job.handle.TestJob.execute(TestJob.java:41)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+2022-11-25 13:29:00-098 [clusteredScheduler_Worker-1] ERROR org.quartz.core.JobRunShell - Job DEFAULT_GROUP.testJob threw an unhandled Exception: 
+java.lang.NullPointerException: null
+	at com.capricorn.summer.utils.BecomingRichUtil.request(BecomingRichUtil.java:68)
+	at com.capricorn.summer.job.handle.TestJob.lambda$execute$0(TestJob.java:42)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.capricorn.summer.job.handle.TestJob.execute(TestJob.java:41)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-25 13:29:00-099 [clusteredScheduler_Worker-1] ERROR org.quartz.core.ErrorLogger - Job (DEFAULT_GROUP.testJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.lang.NullPointerException: null
+	at com.capricorn.summer.utils.BecomingRichUtil.request(BecomingRichUtil.java:68)
+	at com.capricorn.summer.job.handle.TestJob.lambda$execute$0(TestJob.java:42)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.capricorn.summer.job.handle.TestJob.execute(TestJob.java:41)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+2022-11-25 13:30:33-952 [clusteredScheduler_Worker-1] ERROR org.quartz.core.JobRunShell - Job DEFAULT_GROUP.testJob threw an unhandled Exception: 
+java.lang.NullPointerException: null
+	at com.capricorn.summer.utils.BecomingRichUtil.request(BecomingRichUtil.java:68)
+	at com.capricorn.summer.job.handle.TestJob.lambda$execute$0(TestJob.java:42)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.capricorn.summer.job.handle.TestJob.execute(TestJob.java:41)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-25 13:30:33-953 [clusteredScheduler_Worker-1] ERROR org.quartz.core.ErrorLogger - Job (DEFAULT_GROUP.testJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.lang.NullPointerException: null
+	at com.capricorn.summer.utils.BecomingRichUtil.request(BecomingRichUtil.java:68)
+	at com.capricorn.summer.job.handle.TestJob.lambda$execute$0(TestJob.java:42)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.capricorn.summer.job.handle.TestJob.execute(TestJob.java:41)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+2022-11-25 13:30:33-991 [clusteredScheduler_Worker-2] ERROR org.quartz.core.JobRunShell - Job DEFAULT_GROUP.testJob threw an unhandled Exception: 
+java.lang.NullPointerException: null
+	at com.capricorn.summer.utils.BecomingRichUtil.request(BecomingRichUtil.java:68)
+	at com.capricorn.summer.job.handle.TestJob.lambda$execute$0(TestJob.java:42)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.capricorn.summer.job.handle.TestJob.execute(TestJob.java:41)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-25 13:30:33-991 [clusteredScheduler_Worker-2] ERROR org.quartz.core.ErrorLogger - Job (DEFAULT_GROUP.testJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.lang.NullPointerException: null
+	at com.capricorn.summer.utils.BecomingRichUtil.request(BecomingRichUtil.java:68)
+	at com.capricorn.summer.job.handle.TestJob.lambda$execute$0(TestJob.java:42)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.capricorn.summer.job.handle.TestJob.execute(TestJob.java:41)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+2022-11-25 13:32:39-547 [clusteredScheduler_Worker-1] ERROR org.quartz.core.JobRunShell - Job DEFAULT_GROUP.testJob threw an unhandled Exception: 
+java.lang.NullPointerException: null
+	at com.capricorn.summer.utils.BecomingRichUtil.request(BecomingRichUtil.java:68)
+	at com.capricorn.summer.job.handle.TestJob.lambda$execute$0(TestJob.java:42)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.capricorn.summer.job.handle.TestJob.execute(TestJob.java:41)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-25 13:32:39-548 [clusteredScheduler_Worker-1] ERROR org.quartz.core.ErrorLogger - Job (DEFAULT_GROUP.testJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.lang.NullPointerException: null
+	at com.capricorn.summer.utils.BecomingRichUtil.request(BecomingRichUtil.java:68)
+	at com.capricorn.summer.job.handle.TestJob.lambda$execute$0(TestJob.java:42)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.capricorn.summer.job.handle.TestJob.execute(TestJob.java:41)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+2022-11-25 13:32:39-596 [clusteredScheduler_Worker-2] ERROR org.quartz.core.JobRunShell - Job DEFAULT_GROUP.testJob threw an unhandled Exception: 
+java.lang.NullPointerException: null
+	at com.capricorn.summer.utils.BecomingRichUtil.request(BecomingRichUtil.java:68)
+	at com.capricorn.summer.job.handle.TestJob.lambda$execute$0(TestJob.java:42)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.capricorn.summer.job.handle.TestJob.execute(TestJob.java:41)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-25 13:32:39-597 [clusteredScheduler_Worker-2] ERROR org.quartz.core.ErrorLogger - Job (DEFAULT_GROUP.testJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.lang.NullPointerException: null
+	at com.capricorn.summer.utils.BecomingRichUtil.request(BecomingRichUtil.java:68)
+	at com.capricorn.summer.job.handle.TestJob.lambda$execute$0(TestJob.java:42)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.capricorn.summer.job.handle.TestJob.execute(TestJob.java:41)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+2022-11-25 13:32:39-627 [clusteredScheduler_Worker-3] ERROR org.quartz.core.JobRunShell - Job DEFAULT_GROUP.testJob threw an unhandled Exception: 
+java.lang.NullPointerException: null
+	at com.capricorn.summer.utils.BecomingRichUtil.request(BecomingRichUtil.java:68)
+	at com.capricorn.summer.job.handle.TestJob.lambda$execute$0(TestJob.java:42)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.capricorn.summer.job.handle.TestJob.execute(TestJob.java:41)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-25 13:32:39-628 [clusteredScheduler_Worker-3] ERROR org.quartz.core.ErrorLogger - Job (DEFAULT_GROUP.testJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.lang.NullPointerException: null
+	at com.capricorn.summer.utils.BecomingRichUtil.request(BecomingRichUtil.java:68)
+	at com.capricorn.summer.job.handle.TestJob.lambda$execute$0(TestJob.java:42)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.capricorn.summer.job.handle.TestJob.execute(TestJob.java:41)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+2022-11-25 13:37:30-097 [clusteredScheduler_Worker-1] ERROR org.quartz.core.JobRunShell - Job DEFAULT_GROUP.testJob threw an unhandled Exception: 
+java.lang.NullPointerException: null
+	at com.capricorn.summer.utils.BecomingRichUtil.request(BecomingRichUtil.java:68)
+	at com.capricorn.summer.job.handle.TestJob.lambda$execute$0(TestJob.java:42)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.capricorn.summer.job.handle.TestJob.execute(TestJob.java:41)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-25 13:37:30-098 [clusteredScheduler_Worker-1] ERROR org.quartz.core.ErrorLogger - Job (DEFAULT_GROUP.testJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.lang.NullPointerException: null
+	at com.capricorn.summer.utils.BecomingRichUtil.request(BecomingRichUtil.java:68)
+	at com.capricorn.summer.job.handle.TestJob.lambda$execute$0(TestJob.java:42)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.capricorn.summer.job.handle.TestJob.execute(TestJob.java:41)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+2022-11-25 13:38:30-744 [clusteredScheduler_Worker-1] ERROR org.quartz.core.JobRunShell - Job DEFAULT_GROUP.testJob threw an unhandled Exception: 
+java.lang.IllegalStateException: connect in progress
+	at sun.net.www.protocol.http.HttpURLConnection.setRequestMethod(HttpURLConnection.java:556)
+	at com.capricorn.summer.utils.BecomingRichUtil.request(BecomingRichUtil.java:48)
+	at com.capricorn.summer.job.handle.TestJob.lambda$execute$0(TestJob.java:42)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.capricorn.summer.job.handle.TestJob.execute(TestJob.java:41)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-25 13:38:30-745 [clusteredScheduler_Worker-1] ERROR org.quartz.core.ErrorLogger - Job (DEFAULT_GROUP.testJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.lang.IllegalStateException: connect in progress
+	at sun.net.www.protocol.http.HttpURLConnection.setRequestMethod(HttpURLConnection.java:556)
+	at com.capricorn.summer.utils.BecomingRichUtil.request(BecomingRichUtil.java:48)
+	at com.capricorn.summer.job.handle.TestJob.lambda$execute$0(TestJob.java:42)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.capricorn.summer.job.handle.TestJob.execute(TestJob.java:41)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
