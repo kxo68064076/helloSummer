@@ -10,7 +10,7 @@ class SummerApplicationTests {
 
     public static void main(String[] args) {
 
-        String req = BecomingRichUtil.req("http://fundgz.1234567.com.cn/js/", "003835");
+        String req = BecomingRichUtil.req("003835","http://fundgz.1234567.com.cn/js/");
         System.out.println(BecomingRichUtil.regular(req));
     }
 
