@@ -28,7 +28,9 @@ public class ThreadPoolExecutorConfig {
      * 任务队列
      */
     private static final int capacity = 100;
+    //private final ArrayBlockingQueue<Runnable> arrayBlockingQueue = new ArrayBlockingQueue<>(100);
 
+    private static final  TimeUnit unit = TimeUnit.SECONDS;
     /**
      * 站内信、短信-线程池
      *

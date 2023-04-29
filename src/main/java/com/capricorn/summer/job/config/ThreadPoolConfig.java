@@ -7,7 +7,7 @@ import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
-@Configuration
+
 public class ThreadPoolConfig {
 
     private final ArrayBlockingQueue<Runnable> arrayBlockingQueue = new ArrayBlockingQueue<>(100);
@@ -16,7 +16,6 @@ public class ThreadPoolConfig {
     private final int keepAliveTime = 5;
     private final  TimeUnit unit = TimeUnit.SECONDS;
 
-    @Bean
     public ThreadPoolExecutor myThreadPoolExecutor(){
         return new ThreadPoolExecutor(corePoolSize,maximumPoolSize,keepAliveTime,unit,arrayBlockingQueue);
     }
