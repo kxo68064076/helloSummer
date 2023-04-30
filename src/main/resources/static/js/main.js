@@ -1,5 +1,4 @@
 
-
 $(function () {
     // 定义字体大小
     function placeholderPic() {
@@ -15,26 +14,26 @@ $(function () {
         var i = 1;
         setInterval(function () {
             $(ele[i]).find('.cicle').css({
-                'background': 'url(@{/static/images/orange.png}) no-repeat center',
+                'background': 'url(/static/images/orange.png) no-repeat center',
                 'backgroundSize': '100%'
             })
             $(ele[i]).find('.li-content').css({
-                'background': 'url(@{/static//images/border2.png}) no-repeat center',
+                'background': 'url(/static/images/border2.png) no-repeat center',
                 'backgroundSize': 'contain'
             })
             $(ele[i]).siblings().find('.cicle').css({
-                'background': 'url(@{/static/images/green.png}) no-repeat center',
+                'background': 'url(/static/images/green.png) no-repeat center',
                 'backgroundSize': '100%'
             })
             $(ele[i]).siblings().find('.li-content').css({
-                'background': 'url(@{/static/images/border.png}) no-repeat center',
+                'background': 'url(/static/images/border.png) no-repeat center',
                 'backgroundSize': 'contain'
             })
             i++
             if (i == length) {
                 i = 0
             }
-        }, 3000)
+        }, 1000)
     }
     topColor()
 
