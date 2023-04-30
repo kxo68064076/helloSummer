@@ -28,7 +28,7 @@
                         <div class="cicle"></div>
                         <div class="li-content">
                             <span th:text="${detail.get('FUND_NAME')}"></span>
-                            <span  th:text="${detail.get('FUND_VALUATION')}"></span>
+                            <span  th:text="${detail.get('FUND_VALUATION')}+'%'"></span>
 <!--                            <span th:style="${detail.get('down')==null}?'display: none':''">-->
 <!--                                <img th:src="@{/static/images/up.png}" alt="">-->
 <!--                            </span>-->
