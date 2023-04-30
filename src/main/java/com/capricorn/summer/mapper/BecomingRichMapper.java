@@ -14,4 +14,6 @@ public interface BecomingRichMapper {
     int handle(@Param("data") Map<String,Object> data);
 
     int delAll();
+
+    List<Map<String,Object>> findAllFundDetail();
 }

@@ -18,7 +18,7 @@ import java.util.Map;
 import java.util.concurrent.ThreadPoolExecutor;
 
 @Slf4j
-@SyncJob(corn = "*/30 * * * * ? *",triggerName = "testTrigger",jobName = "testJob")
+@SyncJob(corn = "0 */1 * * * ? *",triggerName = "testTrigger",jobName = "testJob")
 public class TestJob implements Job, JobListener {
 
     @Autowired

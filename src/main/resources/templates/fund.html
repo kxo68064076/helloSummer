@@ -13,60 +13,31 @@
     <!-- 头部模块 -->
     <header>
         <h1><span>亏钱警告</span></h1>
-        <p><span>alert！</span></p>
+        <p><span>kuiqian alert！</span></p>
     </header>
 
     <div class="main">
         <!-- top5 -->
         <div class="top5">
             <div class="top5-title">
-                <span>品牌销售TOP5</span>
+                <span>持仓瘟鸡</span>
             </div>
             <div class="top5-content">
                 <ul>
-                    <li>
+                    <li th:each="detail:${allFundDetail}">
                         <div class="cicle"></div>
                         <div class="li-content">
-                            <span>××品牌</span>
-                            <span>15862</span>
-                            <span>82%</span>
-                            <span><img th:src="@{/static/images/up.png}" alt=""></span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="cicle"></div>
-                        <div class="li-content">
-                            <span>××品牌</span>
-                            <span>15862</span>
-                            <span>82%</span>
-                            <span><img th:src="@{/static/images/up.png}" alt=""></span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="cicle"></div>
-                        <div class="li-content">
-                            <span>××品牌</span>
-                            <span>15862</span>
-                            <span>82%</span>
-                            <span><img th:src="@{/static/images/up.png}" alt=""></span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="cicle"></div>
-                        <div class="li-content">
-                            <span>××品牌</span>
-                            <span>15862</span>
-                            <span>82%</span>
-                            <span><img th:src="@{/static/images/up.png}" alt=""></span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="cicle"></div>
-                        <div class="li-content">
-                            <span>××品牌</span>
-                            <span>15862</span>
-                            <span>82%</span>
-                            <span><img th:src="@{/static/images/down.png}" alt=""></span>
+                            <span th:text="${detail.get('FUND_NAME')}"></span>
+                            <span  th:text="${detail.get('FUND_VALUATION')}"></span>
+<!--                            <span th:style="${detail.get('down')==null}?'display: none':''">-->
+<!--                                <img th:src="@{/static/images/up.png}" alt="">-->
+<!--                            </span>-->
+                            <span th:style="${detail.get('FUND_VALUATION')}<0?'display:none':''">
+                                <img th:src="@{/static/images/up.png}" alt="">
+                            </span>
+                            <span th:style="${detail.get('FUND_VALUATION')}>0?'display:none':''">
+                                <img th:src="@{/static/images/down.png}" alt="">
+                            </span>
                         </div>
                     </li>
                 </ul>
@@ -77,29 +48,25 @@
         </div>
         <!-- 销售总额 -->
         <div class="total">
-            <!--<div class="data1">
-                <span>年销售</span>
-                <p>5684710411</p>
+            <div class="data1">
+                <span>今年收入</span>
+                <p>还没算</p>
             </div>
             <div class="data2">
-                <span>月销售</span>
-                <p>1457104</p>
-            </div>
-            <div class="data3">
-                <span>周销售</span>
-                <p>564710</p>
+                <span>本月收益</span>
+                <p>还没算</p>
             </div>
             <div class="data4">
-                <span>日销售</span>
-                <p>14504</p>
-            </div>-->
+                <span>昨日收益</span>
+                <p>还没算</p>
+            </div>
             <canvas class="rain"></canvas>
             <canvas class="dashed"></canvas>
             <div class="sphere">
                 <div class="sphere-bg"></div>
                 <div class="sum">
-                    <span>销售总额</span>
-                    <p>568971401</p>
+                    <span>总金额</span>
+                    <p>还没算</p>
                 </div>
             </div>
             <div class="cicle3"></div>
@@ -108,20 +75,20 @@
             <div class="cicle6"></div>
             <div class="cicle7"></div>
             <div class="cicle8">
-                <span>89%</span>
-                <p>同比</p>
+                <span>还没算</span>
+                <p>持有收益</p>
             </div>
             <div class="cicle9">
-                <span>89%</span>
-                <p>完成率</p>
+                <span>还没算</span>
+                <p>持有收益</p>
             </div>
             <div class="cicle10">
-                <span>89%</span>
-                <p>售罄率</p>
+                <span>还没算</span>
+                <p>持有收益</p>
             </div>
             <div class="cicle11">
-                <span>89%</span>
-                <p>折扣率</p>
+                <span>还没算</span>
+                <p>持有收益</p>
             </div>
         </div>
         <!-- 会销分析 -->
@@ -206,11 +173,21 @@
 
     <!-- 底部模块 -->
     <div class="bottom">
-        <h5><span>调仓</span></h5>
+        <h5>
+            <span onclick="temp()">调仓</span>
+        </h5>
 <!--        <p>Data Status</p>-->
     </div>
     <script type="text/javascript" th:inline="javascript">
 
+        setInterval(function () {
+            console.log("我刷新了");
+            location.reload()
+        },60000);
+
+        function temp() {
+            alert("还没做")
+        }
     </script>
 </body>
 <script type="text/javascript" th:src="@{/static/js/jquery-1.11.0.min.js}"></script>

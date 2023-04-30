@@ -23,4 +23,8 @@
         delete from FUND_detail_TB
     </delete>
 
+    <select id="findAllFundDetail" resultType="Map">
+        select * from FUND_DETAIL_TB
+    </select>
+
 </mapper>
