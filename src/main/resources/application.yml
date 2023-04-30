@@ -5,7 +5,7 @@ server:
 
 spring:
   application:
-    name: summer
+    name: helloSummer
   mvc:
     view:
       prefix: /
