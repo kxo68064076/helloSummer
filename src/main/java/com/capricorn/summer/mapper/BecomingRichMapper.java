@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map;
 
 @Mapper
-public interface IBecomingRichMapper {
+public interface BecomingRichMapper {
 
     List<Map<String,Object>> findAllFundCode();
 

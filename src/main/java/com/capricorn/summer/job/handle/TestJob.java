@@ -1,7 +1,7 @@
 package com.capricorn.summer.job.handle;
 
 import com.capricorn.summer.job.annotation.SyncJob;
-import com.capricorn.summer.mapper.IBecomingRichMapper;
+import com.capricorn.summer.mapper.BecomingRichMapper;
 import com.capricorn.summer.utils.BecomingRichUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.quartz.Job;
@@ -18,13 +18,13 @@ import java.util.Map;
 import java.util.concurrent.ThreadPoolExecutor;
 
 @Slf4j
-//@SyncJob(corn = "*/30 * * * * ? *",triggerName = "testTrigger",jobName = "testJob")
+@SyncJob(corn = "*/30 * * * * ? *",triggerName = "testTrigger",jobName = "testJob")
 public class TestJob implements Job, JobListener {
 
     @Autowired
     private ThreadPoolExecutor threadPoolExecutor;
     @Autowired
-    private IBecomingRichMapper mapper;
+    private BecomingRichMapper mapper;
     @Value("${IP}")
     private String IP;
 
@@ -41,7 +41,7 @@ public class TestJob implements Job, JobListener {
         allFundCode.forEach(fundCode -> {
 //            String fund_code = BecomingRichUtil.request(fundCode.get("FUND_CODE").toString(),IP);
             String fund_code = BecomingRichUtil.req(fundCode.get("FUND_CODE").toString(), IP);
-            Map<String, Object> map = BecomingRichUtil.regular(fund_code);
+            Map<String, Object> map = BecomingRichUtil.regular(fund_code,fundCode.get("IF_BUY").toString());
 
             mapper.handle(map);
         });

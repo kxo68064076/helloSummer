@@ -777,3 +777,516 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2023-04-30 09:32:00-159 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2023-04-30 09:32:00-159 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 2023-04-30 09:32:00-173 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 14 ms
+2023-04-30 09:33:47-269 [main] INFO  com.capricorn.summer.SummerApplication - Starting SummerApplication on DESKTOP-6PO1T0J with PID 3488 (D:\IDEAProjects\summer\target\classes started by CasioJie in D:\IDEAProjects\summer)
+2023-04-30 09:33:47-277 [main] INFO  com.capricorn.summer.SummerApplication - No active profile set, falling back to default profiles: default
+2023-04-30 09:33:48-854 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-04-30 09:33:48-865 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-30 09:33:48-866 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-30 09:33:48-866 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-04-30 09:33:48-988 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-30 09:33:48-988 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1612 ms
+2023-04-30 09:33:52-160 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1,capricorn} inited
+2023-04-30 09:33:52-162 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [capricorn] success
+2023-04-30 09:33:52-162 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [1] datasource,primary datasource named [capricorn]
+2023-04-30 09:33:53-166 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2023-04-30 09:33:53-168 [main] INFO  org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+2023-04-30 09:33:53-180 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-04-30 09:33:53-180 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2023-04-30 09:33:53-183 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - Using db table-based data access locking (synchronization).
+2023-04-30 09:33:53-185 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - JobStoreCMT initialized.
+2023-04-30 09:33:53-186 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'clusteredScheduler' with instanceId 'DESKTOP-6PO1T0J1682818433167'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2023-04-30 09:33:53-186 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'clusteredScheduler' initialized from an externally provided properties instance.
+2023-04-30 09:33:53-186 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2023-04-30 09:33:53-187 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3d7b1f1c
+2023-04-30 09:33:53-854 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-04-30 09:33:53-881 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-30 09:33:53-882 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2023-04-30 09:33:54-058 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler clusteredScheduler_$_DESKTOP-6PO1T0J1682818433167 started.
+2023-04-30 09:33:54-079 [main] INFO  com.capricorn.summer.SummerApplication - Started SummerApplication in 7.524 seconds (JVM running for 8.833)
+2023-04-30 09:33:59-747 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-30 09:33:59-748 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-04-30 09:33:59-756 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2023-04-30 09:44:20-944 [main] INFO  com.capricorn.summer.SummerApplication - Starting SummerApplication on DESKTOP-6PO1T0J with PID 14044 (D:\IDEAProjects\summer\target\classes started by CasioJie in D:\IDEAProjects\summer)
+2023-04-30 09:44:20-953 [main] INFO  com.capricorn.summer.SummerApplication - No active profile set, falling back to default profiles: default
+2023-04-30 09:44:22-741 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-04-30 09:44:22-753 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-30 09:44:22-754 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-30 09:44:22-754 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-04-30 09:44:22-886 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-30 09:44:22-886 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1859 ms
+2023-04-30 09:44:26-026 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1,capricorn} inited
+2023-04-30 09:44:26-027 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [capricorn] success
+2023-04-30 09:44:26-028 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [1] datasource,primary datasource named [capricorn]
+2023-04-30 09:44:26-982 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2023-04-30 09:44:26-984 [main] INFO  org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+2023-04-30 09:44:26-994 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-04-30 09:44:26-995 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2023-04-30 09:44:26-997 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - Using db table-based data access locking (synchronization).
+2023-04-30 09:44:27-000 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - JobStoreCMT initialized.
+2023-04-30 09:44:27-001 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'clusteredScheduler' with instanceId 'DESKTOP-6PO1T0J1682819066983'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2023-04-30 09:44:27-001 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'clusteredScheduler' initialized from an externally provided properties instance.
+2023-04-30 09:44:27-001 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2023-04-30 09:44:27-002 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@4726927c
+2023-04-30 09:44:27-634 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-04-30 09:44:27-659 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-30 09:44:27-662 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2023-04-30 09:44:27-841 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler clusteredScheduler_$_DESKTOP-6PO1T0J1682819066983 started.
+2023-04-30 09:44:27-861 [main] INFO  com.capricorn.summer.SummerApplication - Started SummerApplication in 7.697 seconds (JVM running for 9.237)
+2023-04-30 09:51:36-295 [main] INFO  com.capricorn.summer.SummerApplication - Starting SummerApplication on DESKTOP-6PO1T0J with PID 12836 (D:\IDEAProjects\summer\target\classes started by CasioJie in D:\IDEAProjects\summer)
+2023-04-30 09:51:36-301 [main] INFO  com.capricorn.summer.SummerApplication - No active profile set, falling back to default profiles: default
+2023-04-30 09:51:38-012 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-04-30 09:51:38-025 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-30 09:51:38-026 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-30 09:51:38-026 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-04-30 09:51:38-157 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-30 09:51:38-158 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1787 ms
+2023-04-30 09:51:41-364 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1,capricorn} inited
+2023-04-30 09:51:41-365 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [capricorn] success
+2023-04-30 09:51:41-365 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [1] datasource,primary datasource named [capricorn]
+2023-04-30 09:51:42-372 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2023-04-30 09:51:42-375 [main] INFO  org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+2023-04-30 09:51:42-388 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-04-30 09:51:42-388 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2023-04-30 09:51:42-391 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - Using db table-based data access locking (synchronization).
+2023-04-30 09:51:42-394 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - JobStoreCMT initialized.
+2023-04-30 09:51:42-395 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'clusteredScheduler' with instanceId 'DESKTOP-6PO1T0J1682819502374'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2023-04-30 09:51:42-395 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'clusteredScheduler' initialized from an externally provided properties instance.
+2023-04-30 09:51:42-395 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2023-04-30 09:51:42-395 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@51ce6f85
+2023-04-30 09:51:43-158 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-04-30 09:51:43-184 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-30 09:51:43-187 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2023-04-30 09:51:43-411 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler clusteredScheduler_$_DESKTOP-6PO1T0J1682819502374 started.
+2023-04-30 09:51:43-434 [main] INFO  com.capricorn.summer.SummerApplication - Started SummerApplication in 7.956 seconds (JVM running for 9.487)
+2023-04-30 09:51:47-709 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-30 09:51:47-710 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-04-30 09:51:47-718 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2023-04-30 09:53:46-375 [main] INFO  com.capricorn.summer.SummerApplication - Starting SummerApplication on DESKTOP-6PO1T0J with PID 1412 (D:\IDEAProjects\summer\target\classes started by CasioJie in D:\IDEAProjects\summer)
+2023-04-30 09:53:46-379 [main] INFO  com.capricorn.summer.SummerApplication - No active profile set, falling back to default profiles: default
+2023-04-30 09:53:47-800 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-04-30 09:53:47-810 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-30 09:53:47-811 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-30 09:53:47-811 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-04-30 09:53:47-928 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-30 09:53:47-928 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1473 ms
+2023-04-30 09:53:50-883 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1,capricorn} inited
+2023-04-30 09:53:50-884 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [capricorn] success
+2023-04-30 09:53:50-885 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [1] datasource,primary datasource named [capricorn]
+2023-04-30 09:53:51-721 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2023-04-30 09:53:51-722 [main] INFO  org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+2023-04-30 09:53:51-732 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-04-30 09:53:51-732 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2023-04-30 09:53:51-735 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - Using db table-based data access locking (synchronization).
+2023-04-30 09:53:51-737 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - JobStoreCMT initialized.
+2023-04-30 09:53:51-738 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'clusteredScheduler' with instanceId 'DESKTOP-6PO1T0J1682819631721'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2023-04-30 09:53:51-738 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'clusteredScheduler' initialized from an externally provided properties instance.
+2023-04-30 09:53:51-738 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2023-04-30 09:53:51-738 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@27a97e08
+2023-04-30 09:53:52-308 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-04-30 09:53:52-331 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-30 09:53:52-333 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2023-04-30 09:53:52-497 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler clusteredScheduler_$_DESKTOP-6PO1T0J1682819631721 started.
+2023-04-30 09:53:52-520 [main] INFO  com.capricorn.summer.SummerApplication - Started SummerApplication in 6.78 seconds (JVM running for 7.953)
+2023-04-30 09:54:02-751 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-30 09:54:02-751 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-04-30 09:54:02-764 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+2023-04-30 09:56:15-602 [main] INFO  com.capricorn.summer.SummerApplication - Starting SummerApplication on DESKTOP-6PO1T0J with PID 8044 (D:\IDEAProjects\summer\target\classes started by CasioJie in D:\IDEAProjects\summer)
+2023-04-30 09:56:15-606 [main] INFO  com.capricorn.summer.SummerApplication - No active profile set, falling back to default profiles: default
+2023-04-30 09:56:17-028 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-04-30 09:56:17-038 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-30 09:56:17-039 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-30 09:56:17-040 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-04-30 09:56:17-152 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-30 09:56:17-152 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1476 ms
+2023-04-30 09:56:20-104 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1,capricorn} inited
+2023-04-30 09:56:20-105 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [capricorn] success
+2023-04-30 09:56:20-105 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [1] datasource,primary datasource named [capricorn]
+2023-04-30 09:56:20-932 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2023-04-30 09:56:20-934 [main] INFO  org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+2023-04-30 09:56:20-943 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-04-30 09:56:20-944 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2023-04-30 09:56:20-946 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - Using db table-based data access locking (synchronization).
+2023-04-30 09:56:20-948 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - JobStoreCMT initialized.
+2023-04-30 09:56:20-949 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'clusteredScheduler' with instanceId 'DESKTOP-6PO1T0J1682819780933'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2023-04-30 09:56:20-949 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'clusteredScheduler' initialized from an externally provided properties instance.
+2023-04-30 09:56:20-949 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2023-04-30 09:56:20-949 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@701bc94e
+2023-04-30 09:56:21-526 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-04-30 09:56:21-554 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-30 09:56:21-555 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2023-04-30 09:56:21-724 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler clusteredScheduler_$_DESKTOP-6PO1T0J1682819780933 started.
+2023-04-30 09:56:21-742 [main] INFO  com.capricorn.summer.SummerApplication - Started SummerApplication in 6.815 seconds (JVM running for 8.031)
+2023-04-30 09:56:25-739 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-30 09:56:25-740 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-04-30 09:56:25-750 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2023-04-30 09:57:57-753 [main] INFO  com.capricorn.summer.SummerApplication - Starting SummerApplication on DESKTOP-6PO1T0J with PID 11620 (D:\IDEAProjects\summer\target\classes started by CasioJie in D:\IDEAProjects\summer)
+2023-04-30 09:57:57-758 [main] INFO  com.capricorn.summer.SummerApplication - No active profile set, falling back to default profiles: default
+2023-04-30 09:57:59-376 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-04-30 09:57:59-389 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-30 09:57:59-390 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-30 09:57:59-391 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-04-30 09:57:59-523 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-30 09:57:59-523 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1687 ms
+2023-04-30 09:58:02-909 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1,capricorn} inited
+2023-04-30 09:58:02-910 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [capricorn] success
+2023-04-30 09:58:02-911 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [1] datasource,primary datasource named [capricorn]
+2023-04-30 09:58:03-909 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2023-04-30 09:58:03-912 [main] INFO  org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+2023-04-30 09:58:03-922 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-04-30 09:58:03-922 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2023-04-30 09:58:03-925 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - Using db table-based data access locking (synchronization).
+2023-04-30 09:58:03-931 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - JobStoreCMT initialized.
+2023-04-30 09:58:03-932 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'clusteredScheduler' with instanceId 'DESKTOP-6PO1T0J1682819883911'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2023-04-30 09:58:03-932 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'clusteredScheduler' initialized from an externally provided properties instance.
+2023-04-30 09:58:03-932 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2023-04-30 09:58:03-932 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@65b66b08
+2023-04-30 09:58:04-571 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-04-30 09:58:04-597 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-30 09:58:04-599 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2023-04-30 09:58:04-773 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler clusteredScheduler_$_DESKTOP-6PO1T0J1682819883911 started.
+2023-04-30 09:58:04-791 [main] INFO  com.capricorn.summer.SummerApplication - Started SummerApplication in 7.769 seconds (JVM running for 9.037)
+2023-04-30 09:59:29-939 [main] INFO  com.capricorn.summer.SummerApplication - Starting SummerApplication on DESKTOP-6PO1T0J with PID 9908 (D:\IDEAProjects\summer\target\classes started by CasioJie in D:\IDEAProjects\summer)
+2023-04-30 09:59:29-945 [main] INFO  com.capricorn.summer.SummerApplication - No active profile set, falling back to default profiles: default
+2023-04-30 09:59:31-324 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-04-30 09:59:31-335 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-30 09:59:31-336 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-30 09:59:31-336 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-04-30 09:59:31-451 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-30 09:59:31-451 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1439 ms
+2023-04-30 09:59:34-456 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1,capricorn} inited
+2023-04-30 09:59:34-457 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [capricorn] success
+2023-04-30 09:59:34-457 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [1] datasource,primary datasource named [capricorn]
+2023-04-30 09:59:35-384 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2023-04-30 09:59:35-386 [main] INFO  org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+2023-04-30 09:59:35-396 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-04-30 09:59:35-396 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2023-04-30 09:59:35-399 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - Using db table-based data access locking (synchronization).
+2023-04-30 09:59:35-401 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - JobStoreCMT initialized.
+2023-04-30 09:59:35-402 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'clusteredScheduler' with instanceId 'DESKTOP-6PO1T0J1682819975385'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2023-04-30 09:59:35-402 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'clusteredScheduler' initialized from an externally provided properties instance.
+2023-04-30 09:59:35-402 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2023-04-30 09:59:35-403 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@77e7246b
+2023-04-30 09:59:35-978 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-04-30 09:59:36-003 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-30 09:59:36-005 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2023-04-30 09:59:36-174 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler clusteredScheduler_$_DESKTOP-6PO1T0J1682819975385 started.
+2023-04-30 09:59:36-190 [main] INFO  com.capricorn.summer.SummerApplication - Started SummerApplication in 6.916 seconds (JVM running for 8.085)
+2023-04-30 09:59:55-556 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-30 09:59:55-557 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-04-30 09:59:55-567 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2023-04-30 11:01:53-050 [main] INFO  com.capricorn.summer.SummerApplication - Starting SummerApplication on DESKTOP-6PO1T0J with PID 832 (D:\IDEAProjects\summer\target\classes started by CasioJie in D:\IDEAProjects\summer)
+2023-04-30 11:01:53-055 [main] INFO  com.capricorn.summer.SummerApplication - No active profile set, falling back to default profiles: default
+2023-04-30 11:01:54-521 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-04-30 11:01:54-531 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-30 11:01:54-532 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-30 11:01:54-533 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-04-30 11:01:54-655 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-30 11:01:54-655 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1528 ms
+2023-04-30 11:01:58-437 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1,capricorn} inited
+2023-04-30 11:01:58-438 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [capricorn] success
+2023-04-30 11:01:58-438 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [1] datasource,primary datasource named [capricorn]
+2023-04-30 11:01:59-389 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2023-04-30 11:01:59-392 [main] INFO  org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+2023-04-30 11:01:59-401 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-04-30 11:01:59-401 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2023-04-30 11:01:59-404 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - Using db table-based data access locking (synchronization).
+2023-04-30 11:01:59-406 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - JobStoreCMT initialized.
+2023-04-30 11:01:59-407 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'clusteredScheduler' with instanceId 'DESKTOP-6PO1T0J1682823719391'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2023-04-30 11:01:59-407 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'clusteredScheduler' initialized from an externally provided properties instance.
+2023-04-30 11:01:59-407 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2023-04-30 11:01:59-407 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@59c33386
+2023-04-30 11:02:00-018 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-04-30 11:02:00-042 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-30 11:02:00-044 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2023-04-30 11:02:00-232 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler clusteredScheduler_$_DESKTOP-6PO1T0J1682823719391 started.
+2023-04-30 11:02:00-343 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler clusteredScheduler_$_DESKTOP-6PO1T0J1682823719391 started.
+2023-04-30 11:02:00-888 [main] INFO  com.capricorn.summer.SummerApplication - Started SummerApplication in 8.539 seconds (JVM running for 9.707)
+2023-04-30 11:04:18-695 [main] INFO  com.capricorn.summer.SummerApplication - Starting SummerApplication on DESKTOP-6PO1T0J with PID 4280 (D:\IDEAProjects\summer\target\classes started by CasioJie in D:\IDEAProjects\summer)
+2023-04-30 11:04:18-700 [main] INFO  com.capricorn.summer.SummerApplication - No active profile set, falling back to default profiles: default
+2023-04-30 11:04:20-125 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-04-30 11:04:20-135 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-30 11:04:20-136 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-30 11:04:20-136 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-04-30 11:04:20-249 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-30 11:04:20-250 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1477 ms
+2023-04-30 11:04:23-343 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1,capricorn} inited
+2023-04-30 11:04:23-344 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [capricorn] success
+2023-04-30 11:04:23-344 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [1] datasource,primary datasource named [capricorn]
+2023-04-30 11:04:24-225 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2023-04-30 11:04:24-227 [main] INFO  org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+2023-04-30 11:04:24-236 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-04-30 11:04:24-236 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2023-04-30 11:04:24-240 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - Using db table-based data access locking (synchronization).
+2023-04-30 11:04:24-241 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - JobStoreCMT initialized.
+2023-04-30 11:04:24-242 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'clusteredScheduler' with instanceId 'DESKTOP-6PO1T0J1682823864226'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2023-04-30 11:04:24-243 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'clusteredScheduler' initialized from an externally provided properties instance.
+2023-04-30 11:04:24-243 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2023-04-30 11:04:24-243 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@28e19366
+2023-04-30 11:04:24-850 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-04-30 11:04:24-874 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-30 11:04:24-876 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2023-04-30 11:04:24-984 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler clusteredScheduler_$_DESKTOP-6PO1T0J1682823864226 started.
+2023-04-30 11:04:25-021 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler clusteredScheduler_$_DESKTOP-6PO1T0J1682823864226 started.
+2023-04-30 11:04:25-303 [main] INFO  com.capricorn.summer.SummerApplication - Started SummerApplication in 7.288 seconds (JVM running for 8.537)
+2023-04-30 11:04:56-556 [main] INFO  com.capricorn.summer.SummerApplication - Starting SummerApplication on DESKTOP-6PO1T0J with PID 12760 (D:\IDEAProjects\summer\target\classes started by CasioJie in D:\IDEAProjects\summer)
+2023-04-30 11:04:56-561 [main] INFO  com.capricorn.summer.SummerApplication - No active profile set, falling back to default profiles: default
+2023-04-30 11:04:58-069 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-04-30 11:04:58-080 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-30 11:04:58-080 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-30 11:04:58-080 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-04-30 11:04:58-197 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-30 11:04:58-198 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1567 ms
+2023-04-30 11:05:01-291 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1,capricorn} inited
+2023-04-30 11:05:01-292 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [capricorn] success
+2023-04-30 11:05:01-292 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [1] datasource,primary datasource named [capricorn]
+2023-04-30 11:05:02-156 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2023-04-30 11:05:02-159 [main] INFO  org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+2023-04-30 11:05:02-169 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-04-30 11:05:02-169 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2023-04-30 11:05:02-171 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - Using db table-based data access locking (synchronization).
+2023-04-30 11:05:02-173 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - JobStoreCMT initialized.
+2023-04-30 11:05:02-174 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'clusteredScheduler' with instanceId 'DESKTOP-6PO1T0J1682823902158'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2023-04-30 11:05:02-174 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'clusteredScheduler' initialized from an externally provided properties instance.
+2023-04-30 11:05:02-174 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2023-04-30 11:05:02-174 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@719d35e8
+2023-04-30 11:05:02-760 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-04-30 11:05:02-784 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-30 11:05:02-786 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2023-04-30 11:05:02-938 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler clusteredScheduler_$_DESKTOP-6PO1T0J1682823902158 started.
+2023-04-30 11:05:03-030 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler clusteredScheduler_$_DESKTOP-6PO1T0J1682823902158 started.
+2023-04-30 11:05:03-469 [main] INFO  com.capricorn.summer.SummerApplication - Started SummerApplication in 7.617 seconds (JVM running for 8.84)
+2023-04-30 11:30:20-638 [main] INFO  com.capricorn.summer.SummerApplication - Starting SummerApplication on DESKTOP-6PO1T0J with PID 10836 (D:\IDEAProjects\summer\target\classes started by CasioJie in D:\IDEAProjects\summer)
+2023-04-30 11:30:20-650 [main] INFO  com.capricorn.summer.SummerApplication - No active profile set, falling back to default profiles: default
+2023-04-30 11:30:22-401 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-04-30 11:30:22-412 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-30 11:30:22-413 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-30 11:30:22-413 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-04-30 11:30:22-531 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-30 11:30:22-531 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1820 ms
+2023-04-30 11:30:27-212 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1,capricorn} inited
+2023-04-30 11:30:27-213 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [capricorn] success
+2023-04-30 11:30:27-213 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [1] datasource,primary datasource named [capricorn]
+2023-04-30 11:30:28-352 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2023-04-30 11:30:28-355 [main] INFO  org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+2023-04-30 11:30:28-378 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-04-30 11:30:28-378 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2023-04-30 11:30:28-381 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - Using db table-based data access locking (synchronization).
+2023-04-30 11:30:28-383 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - JobStoreCMT initialized.
+2023-04-30 11:30:28-384 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'clusteredScheduler' with instanceId 'DESKTOP-6PO1T0J1682825428354'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2023-04-30 11:30:28-385 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'clusteredScheduler' initialized from an externally provided properties instance.
+2023-04-30 11:30:28-385 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2023-04-30 11:30:28-385 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@7ed9499e
+2023-04-30 11:30:29-164 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-04-30 11:30:29-196 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-30 11:30:29-198 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2023-04-30 11:30:29-406 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler clusteredScheduler_$_DESKTOP-6PO1T0J1682825428354 started.
+2023-04-30 11:30:29-478 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler clusteredScheduler_$_DESKTOP-6PO1T0J1682825428354 started.
+2023-04-30 11:30:29-742 [main] INFO  com.capricorn.summer.SummerApplication - Started SummerApplication in 10.059 seconds (JVM running for 11.464)
+2023-04-30 11:32:04-709 [main] INFO  com.capricorn.summer.SummerApplication - Starting SummerApplication on DESKTOP-6PO1T0J with PID 13272 (D:\IDEAProjects\summer\target\classes started by CasioJie in D:\IDEAProjects\summer)
+2023-04-30 11:32:04-713 [main] INFO  com.capricorn.summer.SummerApplication - No active profile set, falling back to default profiles: default
+2023-04-30 11:32:06-194 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-04-30 11:32:06-210 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-30 11:32:06-211 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-30 11:32:06-212 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-04-30 11:32:06-368 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-30 11:32:06-369 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1586 ms
+2023-04-30 11:32:10-053 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1,capricorn} inited
+2023-04-30 11:32:10-055 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [capricorn] success
+2023-04-30 11:32:10-055 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [1] datasource,primary datasource named [capricorn]
+2023-04-30 11:32:10-951 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2023-04-30 11:32:10-954 [main] INFO  org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+2023-04-30 11:32:10-968 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-04-30 11:32:10-968 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2023-04-30 11:32:10-972 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - Using db table-based data access locking (synchronization).
+2023-04-30 11:32:10-975 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - JobStoreCMT initialized.
+2023-04-30 11:32:10-977 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'clusteredScheduler' with instanceId 'DESKTOP-6PO1T0J1682825530953'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2023-04-30 11:32:10-977 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'clusteredScheduler' initialized from an externally provided properties instance.
+2023-04-30 11:32:10-977 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2023-04-30 11:32:10-978 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@575cabf0
+2023-04-30 11:32:11-821 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-04-30 11:32:11-860 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-30 11:32:11-861 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2023-04-30 11:32:12-068 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler clusteredScheduler_$_DESKTOP-6PO1T0J1682825530953 started.
+2023-04-30 11:32:12-107 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler clusteredScheduler_$_DESKTOP-6PO1T0J1682825530953 started.
+2023-04-30 11:32:12-586 [main] INFO  com.capricorn.summer.SummerApplication - Started SummerApplication in 8.651 seconds (JVM running for 11.092)
+2023-04-30 11:33:39-131 [clusteredScheduler_Worker-1] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮3条数据耗时：69054 ms
+2023-04-30 11:34:00-315 [clusteredScheduler_Worker-4] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮3条数据耗时：288 ms
+2023-04-30 11:34:30-271 [clusteredScheduler_Worker-5] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮3条数据耗时：254 ms
+2023-04-30 11:35:00-256 [clusteredScheduler_Worker-6] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮3条数据耗时：240 ms
+2023-04-30 11:35:30-276 [clusteredScheduler_Worker-7] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮3条数据耗时：260 ms
+2023-04-30 11:36:00-145 [clusteredScheduler_Worker-8] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮3条数据耗时：132 ms
+2023-04-30 11:36:30-344 [clusteredScheduler_Worker-9] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮3条数据耗时：292 ms
+2023-04-30 11:37:00-253 [clusteredScheduler_Worker-10] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮3条数据耗时：238 ms
+2023-04-30 11:41:06-092 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler clusteredScheduler_$_DESKTOP-6PO1T0J1682825530953 paused.
+2023-04-30 11:41:06-567 [SpringContextShutdownHook] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+2023-04-30 11:41:06-568 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler clusteredScheduler_$_DESKTOP-6PO1T0J1682825530953 shutting down.
+2023-04-30 11:41:06-568 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler clusteredScheduler_$_DESKTOP-6PO1T0J1682825530953 paused.
+2023-04-30 11:41:06-569 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler clusteredScheduler_$_DESKTOP-6PO1T0J1682825530953 shutdown complete.
+2023-04-30 11:41:06-570 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2023-04-30 11:41:06-692 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2023-04-30 11:41:06-692 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2023-04-30 11:42:23-954 [main] INFO  com.capricorn.summer.SummerApplication - Starting SummerApplication on DESKTOP-6PO1T0J with PID 9724 (D:\IDEAProjects\summer\target\classes started by CasioJie in D:\IDEAProjects\summer)
+2023-04-30 11:42:23-960 [main] INFO  com.capricorn.summer.SummerApplication - No active profile set, falling back to default profiles: default
+2023-04-30 11:42:25-380 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-04-30 11:42:25-392 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-30 11:42:25-393 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-30 11:42:25-394 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-04-30 11:42:25-511 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-30 11:42:25-512 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1471 ms
+2023-04-30 11:42:28-604 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1,capricorn} inited
+2023-04-30 11:42:28-605 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [capricorn] success
+2023-04-30 11:42:28-605 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [1] datasource,primary datasource named [capricorn]
+2023-04-30 11:42:29-540 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2023-04-30 11:42:29-543 [main] INFO  org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+2023-04-30 11:42:29-552 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-04-30 11:42:29-552 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2023-04-30 11:42:29-555 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - Using db table-based data access locking (synchronization).
+2023-04-30 11:42:29-556 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - JobStoreCMT initialized.
+2023-04-30 11:42:29-557 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'clusteredScheduler' with instanceId 'DESKTOP-6PO1T0J1682826149542'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2023-04-30 11:42:29-558 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'clusteredScheduler' initialized from an externally provided properties instance.
+2023-04-30 11:42:29-558 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2023-04-30 11:42:29-558 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@65b66b08
+2023-04-30 11:42:30-138 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-04-30 11:42:30-164 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-30 11:42:30-165 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2023-04-30 11:42:30-376 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler clusteredScheduler_$_DESKTOP-6PO1T0J1682826149542 started.
+2023-04-30 11:42:30-413 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler clusteredScheduler_$_DESKTOP-6PO1T0J1682826149542 started.
+2023-04-30 11:42:30-793 [main] INFO  com.capricorn.summer.SummerApplication - Started SummerApplication in 7.496 seconds (JVM running for 8.731)
+2023-04-30 11:42:31-824 [clusteredScheduler_Worker-1] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：752 ms
+2023-04-30 11:43:00-265 [clusteredScheduler_Worker-2] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：247 ms
+2023-04-30 11:43:30-357 [clusteredScheduler_Worker-3] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：332 ms
+2023-04-30 11:44:00-213 [clusteredScheduler_Worker-4] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：198 ms
+2023-04-30 11:44:30-754 [clusteredScheduler_Worker-5] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：733 ms
+2023-04-30 11:45:00-267 [clusteredScheduler_Worker-6] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：254 ms
+2023-04-30 11:45:30-324 [clusteredScheduler_Worker-7] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：312 ms
+2023-04-30 11:46:00-233 [clusteredScheduler_Worker-8] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：220 ms
+2023-04-30 11:46:31-211 [clusteredScheduler_Worker-9] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：917 ms
+2023-04-30 11:47:00-265 [clusteredScheduler_Worker-10] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：221 ms
+2023-04-30 11:47:31-300 [clusteredScheduler_Worker-1] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：1167 ms
+2023-04-30 11:48:02-672 [clusteredScheduler_Worker-2] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：1622 ms
+2023-04-30 11:48:30-354 [clusteredScheduler_Worker-3] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：314 ms
+2023-04-30 11:49:02-039 [clusteredScheduler_Worker-4] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：1804 ms
+2023-04-30 11:49:31-210 [clusteredScheduler_Worker-5] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：1201 ms
+2023-04-30 11:50:02-797 [clusteredScheduler_Worker-6] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：1966 ms
+2023-04-30 11:50:30-468 [clusteredScheduler_Worker-7] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：430 ms
+2023-04-30 11:51:00-256 [clusteredScheduler_Worker-8] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：245 ms
+2023-04-30 11:51:30-348 [clusteredScheduler_Worker-9] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：338 ms
+2023-04-30 11:52:00-241 [clusteredScheduler_Worker-10] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：230 ms
+2023-04-30 11:52:30-311 [clusteredScheduler_Worker-1] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：303 ms
+2023-04-30 11:53:00-248 [clusteredScheduler_Worker-2] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：202 ms
+2023-04-30 11:53:30-500 [clusteredScheduler_Worker-3] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：466 ms
+2023-04-30 11:54:00-262 [clusteredScheduler_Worker-4] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：237 ms
+2023-04-30 11:54:33-696 [clusteredScheduler_Worker-5] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：2291 ms
+2023-04-30 11:55:01-645 [clusteredScheduler_Worker-6] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：1634 ms
+2023-04-30 11:55:33-018 [clusteredScheduler_Worker-7] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：1920 ms
+2023-04-30 11:56:01-622 [clusteredScheduler_Worker-8] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：317 ms
+2023-04-30 11:56:33-000 [clusteredScheduler_Worker-9] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：1979 ms
+2023-04-30 11:57:05-382 [clusteredScheduler_Worker-10] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：2859 ms
+2023-04-30 11:57:33-154 [clusteredScheduler_Worker-1] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：2416 ms
+2023-04-30 11:58:01-787 [clusteredScheduler_Worker-2] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：265 ms
+2023-04-30 11:58:33-197 [clusteredScheduler_Worker-3] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：3189 ms
+2023-04-30 11:59:02-800 [clusteredScheduler_Worker-4] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：2512 ms
+2023-04-30 11:59:33-051 [clusteredScheduler_Worker-5] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：1719 ms
+2023-04-30 12:00:03-578 [clusteredScheduler_Worker-6] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：3050 ms
+2023-04-30 12:00:31-659 [clusteredScheduler_Worker-7] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：1229 ms
+2023-04-30 12:01:01-981 [clusteredScheduler_Worker-8] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：1971 ms
+2023-04-30 12:01:33-077 [clusteredScheduler_Worker-9] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：3023 ms
+2023-04-30 12:02:03-571 [clusteredScheduler_Worker-10] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：2715 ms
+2023-04-30 12:02:32-090 [clusteredScheduler_Worker-1] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：1070 ms
+2023-04-30 12:03:04-006 [clusteredScheduler_Worker-2] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：3363 ms
+2023-04-30 12:03:37-342 [clusteredScheduler_Worker-3] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：6373 ms
+2023-04-30 12:04:17-299 [clusteredScheduler_Worker-4] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：12835 ms
+2023-04-30 12:04:47-422 [clusteredScheduler_Worker-5] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：9412 ms
+2023-04-30 12:05:01-945 [clusteredScheduler_Worker-6] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：885 ms
+2023-04-30 12:05:31-618 [clusteredScheduler_Worker-7] INFO  com.capricorn.summer.job.handle.TestJob - 执行一轮4条数据耗时：310 ms

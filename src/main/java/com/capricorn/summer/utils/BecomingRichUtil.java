@@ -72,18 +72,23 @@ public class BecomingRichUtil {
         return result;
     }
 
-    public static Map<String,Object> regular(String result) {
+    public static Map<String,Object> regular(String result,String ifBuy) {
         String pattern = "\\{.+?}";
         Pattern r = Pattern.compile(pattern);
         Matcher m = r.matcher(result);
         Map<String,Object> data = new HashMap();
         if (m.find( )) {
             JSONObject parse = (JSONObject)JSON.parse(m.group(0));
-            data.put("FUND_CODE",parse.get("fundcode"));
-            data.put("FUND_NAME",parse.get("name"));
-            data.put("VALUATION",parse.get("gszzl"));
-            data.put("UPDATE_TIME",parse.get("gztime"));
-            data.put("FUND_TYPE","无");
+            data.put("FUND_CODE",parse.get("fundcode")); //基金代码
+            data.put("FUND_NAME",parse.get("name"));  //基金名称
+            data.put("FUND_VALUE",parse.get("dwjz"));  //净值
+            data.put("FUND_VALUATION",parse.get("gszzl"));  //估值
+            data.put("UPDATE_TIME",parse.get("gztime"));  //更新时间
+            if (ifBuy !=null && ifBuy.equals("1")){
+                data.put("IF_BUY","1");
+            }else {
+                data.put("IF_BUY","0");
+            }
         } else {
             System.out.println("NO MATCH");
         }
@@ -134,8 +139,6 @@ public class BecomingRichUtil {
             if (response.getStatusLine().getStatusCode() == 200) {
                 String content = EntityUtils.toString(response.getEntity(), "utf8");
                 result = content;
-                System.out.println(content.length());
-                System.out.println(content);
             }
 
         } catch (IOException e) {

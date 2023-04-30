@@ -11,7 +11,7 @@ class SummerApplicationTests {
     public static void main(String[] args) {
 
         String req = BecomingRichUtil.req("003835","http://fundgz.1234567.com.cn/js/");
-        System.out.println(BecomingRichUtil.regular(req));
+        System.out.println(BecomingRichUtil.regular(req,"0"));
     }
 
 }
