@@ -16,15 +16,15 @@ spring:
       datasource:
         capricorn:
           driver-class-name: oracle.jdbc.OracleDriver
-          url: jdbc:oracle:thin:@192.168.18.129:1521:orclcdb
+          url: jdbc:oracle:thin:@110.40.223.132:1521:orclcdb
           username: c##capricorn
-          password: cKMmDEUS/VR5RPysqcMPxWb0mGwZtfb/2iY5afnS6Rtw3mNWIw5p6BOlJJsbfQgP6gb+SwxMJSl+74Ci4KXg5Q==
+          password: mr781bM2zRDx+OqCi3l7YH+SIp/zy+tg4sRvQ2j22+7GK7zcfwQM/cGJFsTjAMNj47WU4v6u5GRzAMhuphUmuA==
           type: com.alibaba.druid.pool.DruidDataSource
           druid:
             initialSize: 30
             minIdle: 30
             maxActive : 50
-            public-Key: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBALS8r0UB0cSX2kYwtV12SLxVQYFVRjdbX1xB8Rc1PafuRC+GwBODEqOIvcOO0gsWgdaI9lZDEajzcmhl/N4D3qECAwEAAQ==
+            public-Key: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAK9zZqXjwziKyluy2mhVmmuYYLVXzccLyJdkqFfDc54wI1OQCQ4r83+Wxz48dpRURtU6c/ykMhriplZm3wp0RvUCAwEAAQ==
 
   quartz:
     #相关属性配置
