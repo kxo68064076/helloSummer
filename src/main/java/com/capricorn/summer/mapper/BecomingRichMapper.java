@@ -16,4 +16,6 @@ public interface BecomingRichMapper {
     int delAll();
 
     List<Map<String,Object>> findAllFundDetail();
+
+    void fundQueryValue(Map<String,Object> param);
 }

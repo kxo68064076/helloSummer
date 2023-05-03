@@ -5,4 +5,6 @@ import java.util.Map;
 
 public interface IBecomingRichService {
     List<Map<String,Object>> findAllFundDetail();
+
+    void fundQueryValue(Map<String,Object> param);
 }

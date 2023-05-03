@@ -18,4 +18,9 @@ public class BecomingRichServiceImpl implements IBecomingRichService {
     public List<Map<String, Object>> findAllFundDetail() {
         return mapper.findAllFundDetail();
     }
+
+    @Override
+    public void fundQueryValue(Map<String,Object> param) {
+        mapper.fundQueryValue(param);
+    }
 }

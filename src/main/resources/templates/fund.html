@@ -48,25 +48,25 @@
         </div>
         <!-- 销售总额 -->
         <div class="total">
-            <div class="data1">
-                <span>今年收入</span>
-                <p>还没算</p>
-            </div>
-            <div class="data2">
-                <span>本月收益</span>
-                <p>还没算</p>
-            </div>
-            <div class="data4">
-                <span>昨日收益</span>
-                <p>还没算</p>
-            </div>
+<!--            <div class="data1">-->
+<!--                <span>今年收入</span>-->
+<!--                <p>还没算</p>-->
+<!--            </div>-->
+<!--            <div class="data2">-->
+<!--                <span>本月收益</span>-->
+<!--                <p>还没算</p>-->
+<!--            </div>-->
+<!--            <div class="data4">-->
+<!--                <span>昨日收益</span>-->
+<!--                <p>还没算</p>-->
+<!--            </div>-->
             <canvas class="rain"></canvas>
             <canvas class="dashed"></canvas>
             <div class="sphere">
                 <div class="sphere-bg"></div>
                 <div class="sum">
-                    <span>总金额</span>
-                    <p>还没算</p>
+                    <span>昨日持有</span>
+                    <p th:text="${fundQueryValue.get('totalValue')}">还没算</p>
                 </div>
             </div>
             <div class="cicle3"></div>
@@ -76,19 +76,19 @@
             <div class="cicle7"></div>
             <div class="cicle8">
                 <span>还没算</span>
-                <p>持有收益</p>
+                <p>今日估算盈亏</p>
             </div>
             <div class="cicle9">
                 <span>还没算</span>
-                <p>持有收益</p>
+                <p>今日估算盈亏</p>
             </div>
             <div class="cicle10">
                 <span>还没算</span>
-                <p>持有收益</p>
+                <p>今日估算盈亏</p>
             </div>
             <div class="cicle11">
                 <span>还没算</span>
-                <p>持有收益</p>
+                <p>今日估算盈亏</p>
             </div>
         </div>
         <!-- 会销分析 -->

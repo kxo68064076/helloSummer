@@ -27,4 +27,12 @@
         select * from FUND_DETAIL_TB
     </select>
 
+    <select id="fundQueryValue" statementType="CALLABLE">
+        {call FUND_QUERY_VALUE(
+                #{totalValue, jdbcType=NUMERIC,mode=OUT },
+                #{outFlag,  jdbcType=VARCHAR,mode=OUT}
+            )}
+    </select>
+
+
 </mapper>
