@@ -82,13 +82,9 @@ public class BecomingRichUtil {
             data.put("FUND_CODE",parse.get("fundcode")); //基金代码
             data.put("FUND_NAME",parse.get("name"));  //基金名称
             data.put("FUND_VALUE",parse.get("dwjz"));  //净值
-            data.put("FUND_VALUATION",parse.get("gszzl"));  //估值
+            data.put("FUND_VALUATION_INCREASE",parse.get("gszzl"));  //估值
+            data.put("FUND_VALUATION",parse.get("gsz"));  //估值涨幅
             data.put("UPDATE_TIME",parse.get("gztime"));  //更新时间
-            if (ifBuy !=null && ifBuy.equals("1")){
-                data.put("IF_BUY","1");
-            }else {
-                data.put("IF_BUY","0");
-            }
         } else {
             System.out.println("NO MATCH");
         }

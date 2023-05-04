@@ -28,11 +28,14 @@ public class RecallController {
         List<Map<String, Object>> allFundDetail = service.findAllFundDetail();
         Map<String, Object> param = new HashMap<>();
         param.put("totalValue",null);
+        param.put("valuationValue",null);
         param.put("outFlag",null);
         service.fundQueryValue(param);
         if (param.get("outFlag").toString().equals("0")){
             String totalValue = String.format("%.2f", (new BigDecimal(param.get("totalValue").toString())));
+            String valuationValue = String.format("%.2f", (new BigDecimal(param.get("valuationValue").toString())));
             param.put("totalValue",totalValue);
+            param.put("valuationValue",valuationValue);
         }
 
 //        allFundDetail.forEach(detai->{

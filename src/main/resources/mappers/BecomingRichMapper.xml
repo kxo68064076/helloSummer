@@ -30,6 +30,7 @@
     <select id="fundQueryValue" statementType="CALLABLE">
         {call FUND_QUERY_VALUE(
                 #{totalValue, jdbcType=NUMERIC,mode=OUT },
+                #{valuationValue, jdbcType=NUMERIC,mode=OUT },
                 #{outFlag,  jdbcType=VARCHAR,mode=OUT}
             )}
     </select>
